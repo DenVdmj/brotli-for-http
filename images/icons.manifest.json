@@ -1,0 +1,6 @@
+  "icons": {
+     "32": "images/brotli-logo-32x32.png",
+     "48": "images/brotli-logo-48x48.png",
+    "128": "images/brotli-logo-128x128.png",
+    "256": "images/brotli-logo-256x256.png"
+  },

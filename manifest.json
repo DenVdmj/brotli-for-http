@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "version": "0.0.1.1",
+  "name": "Brotli for http requests",
+  "description": "Brotli is not only for https requests, but also http requests. This extension just add “br” to “accept-encoding” request header. First and foremost for debugging and site local (WAMP) testing.",
+  "icons": {
+     "32": "images/brotli-logo-32x32.png",
+     "48": "images/brotli-logo-48x48.png",
+    "128": "images/brotli-logo-128x128.png",
+    "256": "images/brotli-logo-256x256.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tabs",
+    "contextMenus",
+    "webRequest",
+    "webRequestBlocking",
+    "file:///*/*",
+    "*://*/*"
+  ],
+  "web_accessible_resources": [
+    "*://*/*"
+  ]
+}
